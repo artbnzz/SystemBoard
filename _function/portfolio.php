@@ -1,0 +1,30 @@
+<?php
+require("_db/connect.php");
+$port1="SELECT * FROM portfolio LIMIT 0,1";
+$port2="SELECT * FROM portfolio LIMIT 1,1";
+$port3="SELECT * FROM portfolio LIMIT 2,2";
+$port4="SELECT * FROM portfolio LIMIT 3,3";
+$port5="SELECT * FROM portfolio LIMIT 4,4";
+$port6="SELECT * FROM portfolio LIMIT 5,5";
+$port7="SELECT * FROM portfolio LIMIT 6,6";
+$port8="SELECT * FROM portfolio LIMIT 7,7";
+$port9="SELECT * FROM portfolio LIMIT 8,8";
+$port_result1=mysqli_query($conn,$port1);
+$port_row1 = mysqli_fetch_assoc($port_result1);
+$port_result2=mysqli_query($conn,$port2);
+$port_row2 = mysqli_fetch_assoc($port_result2);
+$port_result3=mysqli_query($conn,$port3);
+$port_row3 = mysqli_fetch_assoc($port_result3);
+$port_result4=mysqli_query($conn,$port4);
+$port_row4 = mysqli_fetch_assoc($port_result4);
+$port_result5=mysqli_query($conn,$port5);
+$port_row5 = mysqli_fetch_assoc($port_result5);
+$port_result6=mysqli_query($conn,$port6);
+$port_row6 = mysqli_fetch_assoc($port_result6);
+$port_result7=mysqli_query($conn,$port7);
+$port_row7 = mysqli_fetch_assoc($port_result7);
+$port_result8=mysqli_query($conn,$port8);
+$port_row8 = mysqli_fetch_assoc($port_result8);
+$port_result9=mysqli_query($conn,$port9);
+$port_row9 = mysqli_fetch_assoc($port_result9);
+?>
